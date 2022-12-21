@@ -9,10 +9,10 @@
 class NTC_Temp
 {
   private:
-          float ntcR;             //NTC电阻25°C时的阻值
-          float contactR;         //串联电阻阻值
-          unsigned int B_value;            //B值
-          byte readPin;         //测压引脚
+          float ntcR;
+          float contactR;
+          unsigned int B_value;
+          byte readPin;
 
 		  unsigned int u16_Sample_sum = 0;
           unsigned int u16_Sample[SAMPLE_COUNT] = {};
